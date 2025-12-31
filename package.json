@@ -1,8 +1,9 @@
 {
-  "name": "react-virtual-list",
-  "version": "0.0.1",
+  "name": "react-virtual-list-library",
+  "version": "0.0.2",
   "description": "A react library developed with dumi",
   "module": "dist/index.js",
+  "homepage": "https://bobowiki.github.io/react-virtual-list/",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "npm run dev",
