@@ -10,7 +10,7 @@
     "build": "father build",
     "build:watch": "father dev",
     "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist -f",
+    "docs:deploy": "gh-pages -d docs-dist",
     "docs:preview": "dumi preview",
     "prepare": "husky install && dumi setup",
     "doctor": "father doctor",
