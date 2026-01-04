@@ -1,4 +1,3 @@
-import cls from 'classnames';
 import React, { useCallback, useMemo, useRef, useState } from 'react';
 import styles from './index.module.css';
 
@@ -112,7 +111,7 @@ const ReactVirtualList = <T,>({
   return (
     <div
       ref={containerRef}
-      className={cls(styles['react-virtual-list'], className)}
+      className={`${styles['react-virtual-list']} ${className}`}
       style={style}
       onScroll={handleScroll}
     >

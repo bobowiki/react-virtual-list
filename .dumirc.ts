@@ -7,5 +7,8 @@ export default defineConfig({
   publicPath: '/react-virtual-list/',
   themeConfig: {
     name: 'react-virtual-list',
+    socialLinks: {
+      github: 'https://github.com/bobowiki/react-virtual-list',
+    },
   },
 });
